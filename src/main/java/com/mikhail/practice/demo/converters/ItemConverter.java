@@ -15,6 +15,7 @@ public class ItemConverter {
     private final ItemService itemService;
 
     public List<ItemDto> getAll(){
-        return itemMapper.toDTOList(itemService.getAll());
+        return itemMapper.toDtoList(itemService.getAll());
     }
+
 }
