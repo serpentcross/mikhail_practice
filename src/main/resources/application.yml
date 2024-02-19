@@ -3,6 +3,8 @@ server:
     context-path: /demo
 
 spring:
+  jpa:
+    hibernate.ddl-auto: update
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/mikhail_practice?useUnicode=true&characterEncoding=UTF8
