@@ -1,0 +1,11 @@
+server:
+  servlet:
+    context-path: /demo
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/mikhail_practice?useUnicode=true&characterEncoding=UTF8
+    username: ffomichev
+    password: dozor587
+    hikari.maximum-pool-size: 15
